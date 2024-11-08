@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Telex&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Modelo de Exercício</title>
+</head>
+
+<body>
+    <header>
+        <h1>Exercícios </h1>
+        <p>Front-end</p>
+    </header>
+    <section class="section">
+        <div class="div">
+            <label for="inputEscrita">Ano de Nascimento:</label>
+            <input id="inputDate" type="number" placeholder="ex: 2000"> <br>
+    
+            <label for="masculino">
+                <input class="inputRadio" type="radio" name="genero" id="masculino" value="masculino"> Masculino
+            </label>
+            <label for="feminino">
+                <input type="radio" name="genero" id="feminino" value="feminino"> Feminino
+            </label>
+        </div>
+    
+        <button id="button">Verificar</button>
+        <div class="divResult" id="divResultado">
+            <span id="textoResultado"></span> 
+            <img id="assetsResults" src="" alt="Imagem correspondente">
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; Gustavo Vital</p>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>

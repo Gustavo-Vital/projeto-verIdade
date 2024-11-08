@@ -1,0 +1,71 @@
+
+
+body {
+    background-color: #308AD9;
+}
+
+h1 {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+    padding: 50px 0 0 0;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: "Poppins", serif;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section {
+    background-color: #3299D9;
+    font-family: "Telex", serif;
+    font-weight: 400;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #111;
+}
+
+.inputEscrita {
+    padding: 5px;
+}
+
+.inputRadio {
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 15px;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #adadadb4;
+}
+
+img {
+    display: none; 
+    width: 200px;
+     height: auto;
+     margin-top: 15px;
+}
+
+.divResult {
+    margin-top: 25px;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    padding: 50px 0 10px;
+}
